@@ -49,7 +49,7 @@ const fetchTodos = () => {
 };
 /* harmony default export */ __webpack_exports__["default"] = ({
   FETCH_TODOS() {
-    return window.fetch('https://jsonplaceholders.typicode.com/todos?_limit=10').then(response => {
+    return window.fetch('https://jsonplaceholder.typicode.com/todos?_limit=10').then(response => {
       if (response.ok) {
         return response.json();
       }

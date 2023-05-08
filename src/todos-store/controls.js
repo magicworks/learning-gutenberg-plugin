@@ -9,7 +9,7 @@ export const fetchTodos = () => {
 export default {
 	FETCH_TODOS() {
 		return window
-			.fetch('https://jsonplaceholders.typicode.com/todos?_limit=10')
+			.fetch('https://jsonplaceholder.typicode.com/todos?_limit=10')
 			.then((response) => {
 				if (response.ok) {
 					return response.json();
