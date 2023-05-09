@@ -21,3 +21,4 @@ function learning_gutenberg_plugin_enqueue_assets() {
 }
 
 add_action( 'enqueue_block_editor_assets', 'learning_gutenberg_plugin_enqueue_assets' );
+
